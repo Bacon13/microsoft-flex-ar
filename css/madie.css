@@ -1,0 +1,103 @@
+@media screen and (max-width:1083px) {
+    #padg{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .back-grond {
+        background-image: url(../imge/back-media-1.webp);
+        height: 609px;
+    }
+    .back-grond-1 {
+        background-image: url(../imge/back-media-2.webp);
+        height: 609px;
+    }
+    .back-grond .link-2 {
+        width: 380px !important;
+    }
+    .link-3, .link-5{
+        width: 91% !important;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .heading{
+        width: 91% !important;
+    }
+    .link-3 .li-5, .link-5 .li-6 {
+        width: 48.8% !important;
+    }
+    .link-3 .li-5 #contenr {
+        width: 62% !important; 
+    }
+    .link-3 #medie,#medie-1,.link-5 #medie-3,#medie-4  {
+        margin: 50px 0 0 0 !important;
+    }
+    footer .footer-contaner, .footer-contaner-2 {
+    flex-wrap: wrap;
+    width: 95% !important;
+    }
+    footer .footer-contaner .footer-link {
+        width: calc(100%/3) !important;
+    }
+}
+@media screen and (max-width:859px) {
+    header nav,header #none{
+        display: none;
+    }
+    header #none-1{
+        display: flex !important;
+        order: 1;
+    }
+    header #loge{
+        order: 2;
+       margin: auto;
+    }
+    header #none-2 {
+        order: 1;
+  }
+    header #none-3 {
+        order: 4;
+  }
+    header #none-4 {
+        order: 5;
+  }
+  
+}
+@media screen and (max-width:767px){
+    .back-grond {
+      background: #333;
+      justify-content: center;
+      height: unset;
+    }
+    .back-grond-1{
+    background:#e6e6e6;
+    justify-content: center;
+    height: unset;
+    }
+    .back-grond img,.back-grond-1 img{
+        display: block;
+        width: 100%;
+    }
+    .back-grond .link-2,.back-grond-1 .link-4 {
+        width: 90% !important;
+        padding: 90px 10px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width:539px){
+    .link-3 .li-5, .link-5 .li-6 {
+        width: 100% !important;
+        margin: 0 auto 40px;
+    }
+    footer .footer-contaner .footer-link {
+        width: calc(100%/1) !important;
+    }
+    .back-grond .link-2 a {
+        width: 59% !important;
+        color: black;
+        background-color: white;
+    }
+}
