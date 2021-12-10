@@ -293,3 +293,8 @@ footer .footer-contaner .footer-link ul a,
   color: #616161;
   /* border: solid; */
 }
+footer .footer-contaner .footer-link ul a:hover,
+.footer-contaner-2 .map a:hover,
+.footer-contaner-2  .list ul  a:hover{
+  text-decoration: underline;
+}
